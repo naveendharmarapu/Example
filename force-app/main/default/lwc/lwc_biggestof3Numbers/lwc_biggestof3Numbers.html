@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : Dharmarapu Naveen
+  @group             : 
+  @last modified on  : 12-20-2023
+  @last modified by  : Dharmarapu Naveen
+  Modifications Log
+  Ver   Date         Author              Modification
+  1.0   12-12-2023   Dharmarapu Naveen   Initial Version
+-->
+<template>
+    <lightning-card title="Biggest Of 3 Numbers">
+        <lightning-input label="Enter First Number" value={fnum} onchange={handlefirst}></lightning-input>
+        <lightning-input label="Second First Number" value={snum} onchange={handlesecond}></lightning-input>
+        <lightning-input label="Third First Number" value={tnum} onchange={handlethird}></lightning-input>
+        <lightning-button label="Submit" variant="brand" onclick={handleSubmit}></lightning-button>
+        <lightning-button label="Clear" variant="destructive" onclick={handleClear}></lightning-button>
+    </lightning-card>
+</template>

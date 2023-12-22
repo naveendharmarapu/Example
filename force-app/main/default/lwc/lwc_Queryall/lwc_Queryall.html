@@ -1,0 +1,18 @@
+<!--
+  @description       : 
+  @author            : Dharmarapu Naveen
+  @group             : 
+  @last modified on  : 12-12-2023
+  @last modified by  : Dharmarapu Naveen
+  Modifications Log
+  Ver   Date         Author              Modification
+  1.0   12-12-2023   Dharmarapu Naveen   Initial Version
+-->
+<template>
+    <lightning-card title="Query Selector All">
+        <p>Hello <b>{firstname} {lastname}</b>, This is Yours Friend</p>
+        <lightning-input label="First Name:" name="fname" value={firstname}></lightning-input>
+        <lightning-input label="Last Name:" name="lname" value={lastname}></lightning-input>
+        <lightning-button label="Click Me!" onclick={handleclick} variant="brand"></lightning-button>
+    </lightning-card>
+</template>
